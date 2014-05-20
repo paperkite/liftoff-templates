@@ -7,6 +7,7 @@
 # company_identifier:
 ############################################################################
 
+author: PaperKite
 configure_git: true
 warnings_as_errors: true
 enable_static_analyzer: true
@@ -65,8 +66,8 @@ application_target_groups:
     - Views:
   - Resources:
     - Images.xcassets
-    - Fonts
-    - Data
+    - Fonts:
+    - Data:
     - Info.plist
 
 unit_test_target_groups:
