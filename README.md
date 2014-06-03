@@ -21,12 +21,12 @@ For example say you clone projects to `~/PaperKite/*`, that's where you'd need t
 	
 ## Creating a new project
 
-In the directory you cloned this repo (should be the place where you store the various projects you're working on) just run `liftoff` and follow the promts.
+In the directory you cloned this repo (should be the place where you store the various projects you're working on) just run `liftoff` and follow the prompts.
 
 	cd ~/PaperKite
 	liftoff
 	
-Installation can take a few minutes depending how fast the CocoaPods download. Once the process is complete xcode will be opened with the new project.
+The installation can take a few minutes depending how fast the CocoaPods download. Once the process is complete, xcode will open with the new project.
 	
 There's one thing that liftoff doesn't yet support, and that's warnings as errors on debug builds. So you will have to manually do that. This is found in the 'Build Settings' tab in xcode, search for `Treat Warnings as Errors`, and just flick Debug to Yes.
 
