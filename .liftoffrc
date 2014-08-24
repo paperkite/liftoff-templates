@@ -9,7 +9,6 @@
 
 author: PaperKite
 configure_git: true
-warnings_as_errors: true
 enable_static_analyzer: true
 indentation_level: 4
 use_tabs: false
@@ -64,6 +63,7 @@ application_target_groups:
     - Models:
     - ViewControllers:
     - Views:
+      - Cells:
   - Resources:
     - Images.xcassets
     - Fonts:
